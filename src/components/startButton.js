@@ -1,8 +1,11 @@
 import React from 'react'
+import { StyledButton } from './styles/StyledButton'
 
 const StartButton = () => {
     return (
-        <div>Start Game</div>
+        <StyledButton>
+            Start Game
+        </StyledButton>
     )
 }
 
