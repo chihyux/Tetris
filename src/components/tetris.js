@@ -18,9 +18,7 @@ const Tetris = () => {
 
   const [player, updatePlayerPosition, resetPlayer, playerRotate] = usePlayer()
   const [stage, setStage, rowsCleared] = useStage(player, resetPlayer)
-  const [score, setScore, rows, setRows, level, setLevel] = useGameStatus(
-    rowsCleared
-  )
+  const [score, rows, setRows, level, setLevel] = useGameStatus(rowsCleared)
   console.log('re-render')
 
   const movePlayer = (xpos) => {
