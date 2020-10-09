@@ -7,7 +7,7 @@ export const StyledButton = styled.div`
   min-height: 30px;
   width: 100%;
   border-radius: 10px;
-  color: ${(props) => (props.gameover ? 'red' : '#999')};
+  color: ${(props) => (props.gameOver ? 'red' : '#999')};
   font-family: Pixel, Arial;
   font-size: 1rem;
   background: #e4e4e4;
